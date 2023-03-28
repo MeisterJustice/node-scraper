@@ -1,0 +1,25 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "A web scraper node",
+  "main": "index.js",
+  "author": "Justice Eziefule",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node ./bin/index.js",
+    "dev": "ts-node ./src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@types/node": "^18.15.10",
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^3.3.1",
+    "supabase": "^1.45.2",
+    "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "ts-node": "^10.9.1"
+  }
+}
