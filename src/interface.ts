@@ -1,6 +1,6 @@
 export interface IJob {
   title: string;
-  description: string;
+  description?: string;
   company: string;
   image?: string;
 }
