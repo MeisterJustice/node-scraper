@@ -12,13 +12,16 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.12.1",
     "@types/node": "^18.15.10",
     "cheerio": "^1.0.0-rc.12",
+    "node-cron": "^3.0.2",
     "node-fetch": "^3.3.1",
     "supabase": "^1.45.2",
     "typescript": "^5.0.2"
   },
   "devDependencies": {
+    "@types/node-cron": "^3.0.7",
     "dotenv": "^16.0.3",
     "ts-node": "^10.9.1"
   }
